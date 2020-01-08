@@ -13,7 +13,7 @@ decode_results results;      // create instance of 'decode_results'
 void translateIR() // takes action based on IR code received
 // describing Remote IR codes 
 {
-	switch (results.value)
+	switch (results.value)//sss
 	{
 	case 0xFFA25D: Serial.println("POWER"); break;
 	case 0xFFE21D: Serial.println("FUNC/STOP"); break;
